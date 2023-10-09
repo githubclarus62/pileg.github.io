@@ -282,7 +282,7 @@ section .title::after {
   background: #222;
   text-align: center;
   border-radius: 6px;
-  /* padding: 50px 25px; */
+  padding: 50px 25px;
   padding: 25px 15px;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -596,36 +596,6 @@ footer span a {
 }
 footer span a:hover {
   text-decoration: underline;
-}
-/* css untuk whatsapp */
-
-.floatwa {
-  position: fixed;
-  bottom: 0px;
-  right: 0px;
-  background-color: #ffffff;
-  width: 100%;
-  z-index: 1000;
-  padding: 2px;
-  margin: auto;
-  text-align: center;
-  float: none;
-  box-shadow: 0px -2px 10px #c0c0c0;
-}
-.tombolwa {
-  border: 1px #56aa71 solid;
-  background-color: #d4ddd7;
-  width: 90%;
-  padding: 4px;
-  text-align: center;
-  margin: 0;
-  border-radius: 5px;
-  margin: auto;
-  text-align: center;
-  float: none;
-}
-.floatwa a {
-  color: white;
 }
 
 /* responsive media query start */

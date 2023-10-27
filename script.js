@@ -78,7 +78,7 @@ $(document).ready(function () {
     })
       .then(() => {
         //url thank you
-        window.location.href = "/thankyou.html";
+        window.location.href = "./thankyou.html";
       })
       .catch((e) => alert("Error occured"));
   });

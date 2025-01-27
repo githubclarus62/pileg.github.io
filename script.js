@@ -55,13 +55,6 @@ $(document).ready(function () {
     loop: true,
   });
 
-  var typed = new Typed(".typing-4", {
-    strings: ["Lambang Partai PDIP !", "Nama CALEG No.Urut 2 !"],
-    typeSpeed: 100,
-    backSpeed: 60,
-    loop: true,
-  });
-
   //contact-form
   const contactForm = document.getElementById("contact-form");
 
